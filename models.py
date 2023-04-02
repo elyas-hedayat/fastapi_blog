@@ -1,6 +1,7 @@
-from sqlalchemy import Column, String, Integer, DATETIME
-from db import Base
+from sqlalchemy import DATETIME, Column, Integer, String
 from sqlalchemy.sql import func
+
+from db import Base
 
 
 class Post(Base):

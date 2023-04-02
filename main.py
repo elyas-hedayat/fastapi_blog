@@ -1,7 +1,8 @@
 from fastapi import FastAPI
-from db import engin
+
 import models
 import routers
+from db import engin
 
 app = FastAPI()
 app.include_router(router=routers.router)
